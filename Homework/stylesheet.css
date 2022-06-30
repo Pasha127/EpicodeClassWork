@@ -1,0 +1,142 @@
+body{
+    max-width: 100%;
+    margin: 0;
+    background-color: #EAEDED;
+    font-family: Arial, Helvetica, sans-serif;      
+}
+
+.topLogo{
+    display: inline-block;
+    width: 90px;
+    padding-top: 1%;
+}
+.header{
+    padding-bottom: 10px;
+    top: 0px;
+    background-color: #222F3E;
+    padding-left: 3%;
+    margin: 0;
+}
+.mainMenuDiv{
+    background-color: #354758;
+    position: sticky;
+    top: 0;
+    margin: 0;
+}
+.mainMenu{
+    
+    color: #EAEDED;
+    padding-left: 3%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 10px;
+    word-spacing: 20px;
+    margin: 0;
+}
+.mainMenu span {
+    word-spacing: 5px;
+}
+.orangeNotice{
+    background-color: #F56600;
+    margin: 3%;
+}
+.orangeNotice p{
+    color: #EAEDED;
+    text-align: center;
+    font-size: 10pt;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+.holidayBanner{
+    margin: 3%;
+    background-image: url(./assets/bg-image.png);
+    height: 130px;
+    background-size: contain;
+}
+.holidayBanner p{
+    text-align: center;
+    color: #EAEDED;
+    font-size: 14pt;
+    padding-top: 45px;
+    line-height: 1.6;
+}
+.holidayBanner span{
+    font-size: 10pt;    
+}
+.giftOptions{
+    background-color: #FFFFFF;
+    margin-left: 3%;
+    margin-right: 3%;
+    height: 350px;
+}
+.giftOptions p{
+    font-weight: 600;
+    padding-top: 2%;
+    padding-left: 2%;
+    font-size: 10pt;   
+    
+}
+
+.Pic{
+    height: 77%;
+    width: 22%;
+    border-radius: 10px;
+    background-size: cover;
+    background-image: url(./assets/img_2.jpg);
+    background-position: center;
+    display: inline-block;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    box-shadow: 5px 5px 10px -3px #7e858b;
+}
+.kindle{
+    background-image: url(./assets/img_1.jpg);
+}
+.watch{
+    background-image: url(./assets/img_3.jpg);
+}
+.pet{
+    background-image: url(./assets/img_4.jpg);
+}
+.Pic:hover {
+    height: 79%;
+    width: 24%;
+    box-shadow: 5px 5px 10px 0px #7e858b;
+}
+.vr{
+    margin-top: 2%;
+    background-image: url(./assets/img_9.png);
+    background-size: cover;
+    background-position: center;
+    margin-left: 3%;
+    margin-right: 3%;
+    height: 280px;
+    margin-bottom: 0%;
+}
+.subtitle{
+    margin-top: -14px;
+    padding-top: 0%;
+    text-align: center;
+}
+
+.coffeeTable{
+    margin-top: 2%;
+    background-image: url(./assets/img_10.png);
+    background-size: cover;
+    background-position: center;
+    margin-left: 3%;
+    margin-right: 3%;
+    height: 280px;
+    margin-bottom: 0%;
+}
+.shopLink{
+    color: #017185;
+    font-size: 9pt;
+}
+.footer{
+    background-color: #222F3E;
+    color: #FFFFFF;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    text-align: center;
+}
